@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: '', sans-serif;
     background: #fff;
+    overflow: hidden;
 }
 
 /* generic styles */
@@ -14,8 +15,10 @@ a {
     display: none;
 }
 
-video {
+.video {
     width: 100%;
+    position: relative;
+    top: -2rem;
 }
 
 .active {
@@ -27,6 +30,8 @@ header {
     width: 100%;
     padding: 2.5%;
     background-color: #000;
+    z-index: 100;
+    position: fixed;
 }
 
 .header-wrapped {
