@@ -7,6 +7,8 @@
     <title>Home Page</title>
 </head>
 <body>
-    
+<div>
+    <Header> AVANDOR LOGO </Header>
+</div>    
 </body>
 </html>
