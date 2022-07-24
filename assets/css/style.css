@@ -191,6 +191,18 @@ header {
     opacity: 0.75;
 }
 
+.overlay-wrapped {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.overlay-wrapped p{
+    text-align: center;
+}
+
 
 /* website process */
 
@@ -308,6 +320,12 @@ footer {
         width: 100%;
         margin-top: 5%;
     }
+
+    /* work  */
+    .overlay-wrapped {
+        top: 20%;
+        left: 20%;
+    }
 }
 
 @media (max-width: 700px) {
@@ -332,6 +350,12 @@ footer {
     .process-btn {
         width: 50%;
     }
+
+    /* work  */
+    .overlay-wrapped {
+        top: 17%;
+        left: 17%;
+    }
 }
 
 @media (max-width: 600px) { 
@@ -351,6 +375,11 @@ footer {
     .our-work-grid {
         grid-template-columns: 100%;
     }
+
+    .overlay-wrapped {
+        top: 30%;
+        left: 30%;
+    }    
 
     /* process */
 
@@ -404,6 +433,12 @@ footer {
     .service-icons {
         grid-template-columns: 100%;
         margin-bottom: 15%;
+    }
+
+    /* work */
+    .overlay-wrapped {
+        top: 20%;
+        left: 18%;
     }
 
     /* footer */
