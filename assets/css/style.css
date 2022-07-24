@@ -155,11 +155,60 @@ header {
 .our-work-grid {
     display: grid;
     grid-template-columns: 50% 50%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .grid-item {
     background-color: aqua;
     border: 1px solid #000;
     height: 20rem;
+}
+
+/* website process */
+
+.process-grid {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    margin-top: 5%;
+    grid-gap: 4%;
+}
+
+
+.process-cards {
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 4%;
+}
+
+.process-cards a p {
+    padding-right: 5%;
+}
+
+.process-btn {
+    background-color: #000; 
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    padding: 0 10%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1em;
+    cursor: pointer;
+    width: 40%;
+    transition: all .5s;
+}
+
+.p-btn-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.process-btn:hover {
+    background-color: #7E7E7E;
+    color: #000;
 }
