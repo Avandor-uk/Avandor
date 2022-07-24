@@ -219,6 +219,7 @@ footer {
     background-color: #000;
     position: relative;
     bottom: 0;
+    margin-top: 5%;
 }
 
 .footer-content {
@@ -243,5 +244,144 @@ footer {
 .footer-navigation a {
     padding: 0 2%;
     color: #BEBEBE;
+}
+
+/* responsiveness */
+
+@media (max-width: 800px) {
+    /* generic-styles */
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .gen-p {
+        font-size: 1rem;
+    }
+
+    .video {
+        top: 0;
+    }
+
+    /* intro section */
+    .intro-bottom, .intro-top {
+        flex-direction: column;
+    }
+
+    .intro-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro-text h1, p {
+        text-align: left;
+    }
+
+    .intro-wrapped img {
+        width: 100%;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 700px) {
+
+    /* generic styles */
+    .title {
+        font-size: 2rem;
+    }
+
+    /* process secvtion */
+
+    .process-cards h1 {
+        font-size: 1.5rem;
+    }
+
+    .process-cards p {
+        width: 75%;
+        margin: 1em auto;
+        text-align: center;
+    }
+
+    .process-btn {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) { 
+
+    /* generic styles */
+    .title {
+        font-size: 1.8rem;
+    }
+
+    /* service */
+    .service-icons {
+        grid-template-columns: 50% 50%;
+    }
+
+    /* our work */
+
+    .our-work-grid {
+        grid-template-columns: 100%;
+    }
+
+    /* process */
+
+    .process-grid {
+        grid-template-columns: 100%;
+    }
+    
+    /* footer */
+    footer {
+        margin-top: 25%;
+    }
+}
+
+
+@media (max-width: 400px) { 
+
+    /* generic */
+    .gen-margin {
+        margin: 15% 5%;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .gen-p {
+        padding: 4% 0;
+    }
+
+    /* header */
+    .logo img {
+        width: 100%;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    /* video */
+
+    .video {
+        margin-top: 8%;
+    }
+
+    /* intro */
+    .intro-text h1{
+        font-size: 1.5rem;
+    }
+
+    /* services */
+    .service-icons {
+        grid-template-columns: 100%;
+        margin-bottom: 15%;
+    }
+
+    /* footer */
+
+    footer {
+        margin-top: 40%;
+    }
 }
 
