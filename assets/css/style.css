@@ -30,6 +30,36 @@ a {
     flex-direction: row;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    border: 1px solid #000;
+    margin: 0;
+}
+
+.gen-margin {
+    margin: 5% 2.5%;
+}
+
+.gen-p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 2.5% 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
 /* header */
 header {
     width: 100%;
@@ -66,9 +96,6 @@ header {
 }
 
 /* intro section */
-.intro-wrapped {
-    margin: 5% 2.5%;
-}
 
 .intro-wrapped img {
     width: 45%;
@@ -99,4 +126,40 @@ header {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+/* services */
+
+.service-icons {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+
+.icons {
+    justify-content: center;
+    align-items: center;
+}
+
+.service-icons img {
+    width: 75%;
+}
+
+.icon-text {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* our work */
+ 
+.our-work-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 10%;
+}
+
+.grid-item {
+    background-color: aqua;
+    border: 1px solid #000;
+    height: 20rem;
 }
