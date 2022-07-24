@@ -158,11 +158,39 @@ header {
     margin-top: 5%;
 }
 
-.grid-item {
-    background-color: aqua;
-    border: 1px solid #000;
-    height: 20rem;
+.work-card {
+    position: relative;
+    width: 100%;
 }
+
+.work-card img{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.work-overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: relative;
+    bottom: 92%;
+    width: 100%;
+    height: 87%;
+    text-align: center;
+    background: #000;
+}
+
+.work-card:hover .work-card img {
+    opacity: 0.3;
+}
+  
+.work-card:hover .work-overlay {
+    opacity: 0.75;
+}
+
 
 /* website process */
 
