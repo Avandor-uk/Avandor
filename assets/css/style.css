@@ -505,7 +505,22 @@ footer {
         width: 100%;
     }
 
-    
+    header {
+        padding: 5%;
+    }
+
+    /* header */
+    .logo {
+        width: 35%;
+    }
+
+    .navigation-button {
+        width: 55%;
+    }
+
+    .mobile-nav {
+        width: 90%;
+    }
 
     /* video */
 
