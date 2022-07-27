@@ -452,11 +452,12 @@ footer {
     .mobile-nav ul {
         padding: 0;
         width: 100%;
-        border-bottom: 1px solid #BEBEBE
+        border-bottom: 1px solid #BEBEBE;
+        margin-bottom: 10px;
     }
 
     .mobile-nav ul li {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
 
     /* fixed button */
