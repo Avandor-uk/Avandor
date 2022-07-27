@@ -90,13 +90,13 @@ header {
     width: 60%; 
 }
 
-.navigation a {
+.navigation-a {
     padding: 0 2%;
     color: #BEBEBE;
     transition: all .5s;
 }
 
-.navigation a:hover {
+.navigation-a:hover {
     color: #fff;
 }
 
@@ -419,13 +419,37 @@ footer {
 
     /* navigation small */
     .show-mobile-nav {
-        height: 300px !important;
+        height: 250px !important;
         display: block !important;
-        -webkit-transition: height .5s;
-        transition: height .5s;
+        -webkit-transition: height 5s;
+        transition: height 5s;
     }
 
-    
+    .extend-nav {
+        height: 0;
+        -webkit-transition: height .5s;
+        transition: height .5s;
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-top: 25px;
+    }
+
+    .mobile-nav ul {
+        padding: 0;
+        width: 100%;
+        border-bottom: 1px solid #BEBEBE
+    }
+
+    .mobile-nav ul li {
+        margin-bottom: 15px;
+    }
 
     /* fixed button */
     .sticky-contact-us {
