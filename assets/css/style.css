@@ -93,6 +93,36 @@ header {
 .navigation a {
     padding: 0 2%;
     color: #BEBEBE;
+    transition: all .5s;
+}
+
+.navigation a:hover {
+    color: #fff;
+}
+
+.navigation-button {
+    display: none;
+}
+
+/* contact us button */
+.sticky-contact-us {
+    position: fixed;
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    cursor: pointer; 
+    padding: 15px 5px; 
+    font-size: 18px; 
+    color: #fff;
+    background: #000;
+    border: 2px solid #000;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+.sticky-contact-us:hover {
+    background: #EE721A;
+    color: #000;
 }
 
 /* intro section */
@@ -304,8 +334,8 @@ footer {
 
     /* intro section */
     .intro-bottom, .intro-top {
-        flex-direction: column;
-    }
+        flex-direction: column-reverse;
+    }    
 
     .intro-text {
         width: 100%;
@@ -365,6 +395,43 @@ footer {
         font-size: 1.8rem;
     }
 
+    /* navigation */
+    .navigation {
+        display: none;
+    }
+
+    .navigation-button {
+        display: block;
+        width: 45%;
+        text-align: right;
+        color: #C8C7C6;
+        font-size: 1.5rem;
+        transition: all .5s;
+    }
+
+    .navigation-button:hover {
+        color: #fff;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    /* navigation small */
+    .show-mobile-nav {
+        height: 300px !important;
+        display: block !important;
+        -webkit-transition: height .5s;
+        transition: height .5s;
+    }
+
+    
+
+    /* fixed button */
+    .sticky-contact-us {
+        display: none;
+    }
+
     /* service */
     .service-icons {
         grid-template-columns: 50% 50%;
@@ -414,9 +481,7 @@ footer {
         width: 100%;
     }
 
-    .navigation {
-        display: none;
-    }
+    
 
     /* video */
 
