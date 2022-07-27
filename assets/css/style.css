@@ -104,6 +104,10 @@ header {
     display: none;
 }
 
+.extend-nav {
+    display: none;
+}
+
 /* contact us button */
 .sticky-contact-us {
     position: fixed;
@@ -415,6 +419,10 @@ footer {
 
     .logo {
         width: 50%;
+    }
+
+    .mobile-nav {
+        width: 95%;
     }
 
     /* navigation small */
