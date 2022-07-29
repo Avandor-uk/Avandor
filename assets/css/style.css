@@ -419,6 +419,15 @@ footer {
         top: 0;
     }
 
+    /* header */
+    .navigation {
+        width: 70%;
+    }
+
+    .header-wrapped {
+        justify-content: space-between;
+    }
+
     /* intro section */
     .intro-bottom, .intro-top {
         flex-direction: column-reverse;
@@ -453,6 +462,11 @@ footer {
         font-size: 2rem;
     }
 
+    /* header */
+    .navigation {
+        width: 60%;
+    }
+
     /* process secvtion */
 
     .process-cards h1 {
@@ -480,9 +494,21 @@ footer {
         font-size: 1.8rem;
     }
 
+    .gen-margin-mobile {
+        margin: 15% 2.5%;
+    }
+
     /* navigation */
     .navigation {
         display: none;
+    }
+
+    .header-wrapped {
+        justify-content: start;
+    }
+
+    header {
+        top: 0;
     }
 
     .navigation-button {
@@ -541,6 +567,14 @@ footer {
         margin-bottom: 25px;
     }
 
+    .mobile-nav ul li a{
+        color: #BEBEBE;
+    }
+
+    .mobile-nav ul li a:hover {
+        color: #fff;
+    }
+
     /* fixed button */
     .sticky-contact-us {
         display: none;
@@ -549,6 +583,10 @@ footer {
     /* service */
     .service-icons {
         grid-template-columns: 50% 50%;
+    }
+
+    .mobile-non {
+        display: none;
     }
 
     /* our work */
@@ -575,6 +613,10 @@ footer {
     footer {
         margin-top: 25%;
     }
+
+    .footer-navigation {
+        display: none;
+    }
 }
 
 @media (max-width: 500px) {  
@@ -596,6 +638,10 @@ footer {
     /* generic */
     .gen-margin {
         margin: 15% 5%;
+    }
+
+    .gen-margin-mobile {
+        margin: 25% 5% 10% 5%;
     }
 
     .title {
