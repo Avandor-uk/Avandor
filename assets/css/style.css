@@ -55,7 +55,6 @@ hr {
 }
 
 .title {
-    font-size: 3rem;
     font-weight: 600;
     margin-bottom: 2%;
 }
@@ -408,9 +407,6 @@ footer {
 
 @media (max-width: 800px) {
     /* generic-styles */
-    .title {
-        font-size: 2.5rem;
-    }
 
     .gen-p {
         font-size: 1rem;
@@ -459,9 +455,6 @@ footer {
 @media (max-width: 700px) {
 
     /* generic styles */
-    .title {
-        font-size: 2rem;
-    }
 
     /* header */
     .navigation {
@@ -491,9 +484,6 @@ footer {
 @media (max-width: 600px) { 
 
     /* generic styles */
-    .title {
-        font-size: 1.8rem;
-    }
 
     .gen-margin-mobile {
         margin: 15% 2.5%;
@@ -643,10 +633,6 @@ footer {
 
     .gen-margin-mobile {
         margin: 25% 5% 10% 5%;
-    }
-
-    .title {
-        font-size: 1.2rem;
     }
 
     .gen-p {
