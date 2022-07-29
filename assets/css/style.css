@@ -90,15 +90,7 @@ header {
     width: 60%; 
 }
 
-.navigation-a {
-    padding: 0 2%;
-    color: #BEBEBE;
-    transition: all .5s;
-}
 
-.navigation-a:hover {
-    color: #fff;
-}
 
 .navigation-button {
     display: none;
@@ -106,6 +98,60 @@ header {
 
 .extend-nav {
     display: none;
+}
+
+/* Dropdown menu */
+
+nav {
+    margin:0 auto;
+    width:100%;
+    height:auto;
+    display:inline-block;
+}
+
+li > a:only-child:after { content: ''; }
+  
+nav ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    display: inline-block;
+}
+  
+nav ul li {
+    position:relative;
+    margin:0 20px 0 0;
+    display:inline-block;
+}
+
+nav ul li a {
+    padding:20px;
+    display:inline-block;
+    color: #BEBEBE;
+    text-decoration:none;
+    transition: all .5s;
+    text-align: center;
+}
+  
+nav ul li a:hover {
+    color: #fff;
+}
+  
+nav ul li ul {
+    display:none;
+    position:absolute;
+    left: -10px;
+    background-color: #000;
+    text-align: center;
+}
+  
+nav ul li ul li {
+    width:100%;
+    border-bottom:1px solid rgba(255,255,255,.3);
+}
+  
+nav ul li:hover ul {
+    display:block;
 }
 
 /* contact us button */
