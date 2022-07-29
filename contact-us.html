@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Avandor</title>
 </head>
-<body>
+<body id="contact-body">
 
     <Header> 
         <div class="header-wrapped">
@@ -21,7 +21,7 @@
             <div id="Navbar" class="navigation"> 
                 <nav>
                     <ul>
-                        <li><a href="index.html" class="navigation-a active">HOME</a></li>
+                        <li><a href="index.html" class="navigation-a">HOME</a></li>
                         <li><a class="navigation-a">OUR SERVICES</a>
                         <ul>
                             <li><a href="web-design.html">WEB DESIGN</a></li> 
@@ -32,7 +32,7 @@
                             <li><a href="logo-design.html">LOGO DESIGN</a></li>
                         </ul>
                         </li>
-                        <li><a href="contact-us.html" class="navigation-a">CONTACT US</a></li>
+                        <li><a href="contact-us.html" class="navigation-a active">CONTACT US</a></li>
                     </ul>
                 </nav>
                 
@@ -49,13 +49,13 @@
             <div class="mobile-nav">
 
                 <ul>
-                    <li><a href="index.html" class="navigation-a active">HOME</a></li>
+                    <li><a href="index.html" class="navigation-a">HOME</a></li>
                 </ul>
                 <ul>
                     <li><a href="services.html" class="navigation-a">OUR SERVICES</a></li>
                 </ul>
                 <ul>
-                    <li><a href="contact-us.html" class="navigation-a">CONTACT US</a></li>
+                    <li><a href="contact-us.html" class="navigation-a active">CONTACT US</a></li>
                 </ul>
             </div> 
         </div>
@@ -65,16 +65,85 @@
    
 
     <!-- Our Services -->
-    <div class="our-services gen-margin mobile-non ">
-        <div class="our-services-text">
+    <section id="contact">
+  
+        <h1 class="section-header">Contact</h1>
+        
+        <div class="contact-wrapper">
+        
+        <!-- Left contact page --> 
+          
+          <form id="contact-form" class="form-horizontal" role="form">
+             
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+              </div>
+            </div>
+      
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+              </div>
+            </div>
+      
+            <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
             
+            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+              <div class="alt-send-button">
+                <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+              </div>
             
+            </button>
             
-            <h1 class="title testmargin">Fancy a Chat?</h1>
-            <hr>
+          </form>
+          
+        <!-- Left contact page --> 
+          
+            <div class="direct-contact-container">
+      
+              <ul class="contact-list">
+                <li class="list-item"><i class="fa-solid fa-location-dot fa-2x contact-i"><span class="contact-text place">Leigh, Manchester</span></i></li>
+                
+                <li class="list-item"><i class="fa fa-phone fa-2x contact-i"><span class="contact-text phone"><a href="tel:07729286513" title="Give us a call">07729286513</a></span></i></li>
+                
+                <li class="list-item"><i class="fa fa-envelope fa-2x contact-i"><span class="contact-text gmail"><a href="mailto:enquiries@avandor.co.uk" title="Send us an email">enquiries@avandor.co.uk</a>/a></span></i></li>
+                
+              </ul>
+      
+              <hr>
+              <ul class="social-media-list">
+                <li><a href="#" target="_blank" class="contact-icon">
+                    <i class="fa-brands fa-facebook-f contact-i" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                    <i class="fa-brands fa-linkedin-in contact-i" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-twitter contact-i" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-instagram contact-i" aria-hidden="true"></i></a>
+                </li>       
+              </ul>
+              <hr class="contact-hr">
+              <br><br>
+              <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+      
+            </div>
+          
+        </div>
+        
+    </section>  
 
 
-            <p class="gen-p text-center">
+
+
+    <!-- <div class="Contact-us-wrapped">
+            <h1 class="-contact-title">Fancy a Chat?</h1>
+
+
+            <div class="contact-form">
                 <form action="" method="get" autocomplete="on">
                     <label for="name">Your Name (required)</label><br>
                     <input type="text" id="name" name="name" autofocus required><br>
@@ -88,20 +157,21 @@
                     <textarea id="message" name="message" style="width:600px; height:200px;"></textarea><br>
                     <input type="submit" value="SEND">
                 </form>
+            </div>
             <br><br>
 
             <b>Call Us</b>
-            <p></p>
+            <br><br>
             <b>07729286513</b>
-            <p></p>
+            <br><br>
             <b>Or email us on</b>
-            <p></p>
+            <br><br>
             <b>enquiries@avandor.co.uk</b>
-            <p></p>
+            <br><br>
             </p>
         </div>
         
-    </div>
+    </div> -->
 
     
 
