@@ -406,6 +406,11 @@ footer {
 .footer-navigation a {
     padding: 0 2%;
     color: #BEBEBE;
+    transition: all .5s;
+}
+
+.footer-navigation a:hover {
+    color: #fff;
 }
 
 /* contact us page */
@@ -637,6 +642,16 @@ textarea {
 
 .service-img img {
     width: 100%;
+}
+
+.service-link {
+    color: #000;
+    text-decoration: underline;
+    transition: all .5s;
+}
+
+.service-link:hover {
+    color: #EE721A;
 }
 
 /* responsiveness */
