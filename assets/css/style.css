@@ -577,12 +577,12 @@ textarea {
     line-height: 60px;
     border-radius: 50%;
     opacity: 0;
-    box-shadow: 0 0 0 1px #fff;
+    box-shadow: 0 0 0 1px #EE721A;
     transition: all .2s ease-in-out;
 }
   
 .social-media-list li:hover {
-    background-color: #fff; 
+    background-color: #EE721A; 
 }
   
 .social-media-list li:hover:after {
@@ -662,7 +662,10 @@ textarea {
     .contact-wrapper {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
       }
+
       .direct-contact-container, .form-horizontal {
         margin: 0 auto;
         width: 65%;
@@ -693,6 +696,7 @@ textarea {
       .send-button {
         width: 106%;
       }
+
 
 
 }
@@ -860,6 +864,8 @@ textarea {
         float: none;
         margin: 0 auto;
       }  
+
+      
       .form-control, textarea {
         
         margin: 0 auto;
@@ -872,8 +878,8 @@ textarea {
       
       .direct-contact-container {
         margin-top: 60px;
-        max-width: 280px;
-      }  
+        width: 70%;
+    }
       .social-media-list {
         left: 0;
       }
@@ -976,7 +982,11 @@ textarea {
     }
 
     .direct-contact-container, .form-horizontal {
-        width: 82%;
+        width: 90%;
+    }
+
+    .form-horizontal {
+        margin-right: 20px;
     }
 
     .direct-contact-container {
