@@ -707,7 +707,11 @@ textarea {
 
     /* header */
     .navigation {
-        width: 60%;
+        width: 75%;
+    }
+
+    nav ul li a {
+        padding: 10px;
     }
 
     /* process secvtion */
@@ -726,7 +730,15 @@ textarea {
         width: 50%;
     }
 
-    /* work  */
+    /* contact  */
+    .section-header {
+        font-size: 50px;
+    }
+
+    .form-horizontal {
+        margin: 0 2% 0 0;
+        width: 90%;
+    }
 
 }
 
@@ -907,6 +919,11 @@ textarea {
         font-size: 1rem;
     }
 
+    /* contact */
+
+    .section-header {
+        font-size: 45px;
+    }
 }
 
 
@@ -1005,6 +1022,11 @@ textarea {
     .contact-text {
         margin-left: 25px;
         font-size: 15px;
+    }
+
+    .section-header {
+        font-size: 30px;
+        padding: 60px 0 20px 0;
     }
 
 }
