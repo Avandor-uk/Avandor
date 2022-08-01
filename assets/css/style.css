@@ -610,6 +610,34 @@ textarea {
     border-color: rgba(255,255,255,.6);
 }
 
+/* service page */
+
+.service-wrapped {
+    margin-top: 12.5% !important;
+}
+
+.service-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    justify-content: space-between;
+}
+
+.service-title {
+    font-size: 3rem;
+}
+
+.service-text {
+    width: 50%;
+}
+
+.service-img {
+    width: 45%;
+}
+
+.service-img img {
+    width: 100%;
+}
 
 /* responsiveness */
 
