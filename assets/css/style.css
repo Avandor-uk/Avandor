@@ -59,9 +59,19 @@ hr {
     text-align: center;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
 .title {
     font-weight: 600;
     margin-bottom: 2%;
+}
+
+.top-margin {
+    margin: 10% 2.5% 5% 2.5%;
 }
 
 /* header */
@@ -94,7 +104,6 @@ header {
     margin: auto;
     width: 60%; 
 }
-
 
 
 .navigation-button {
@@ -192,6 +201,7 @@ nav ul li:hover ul {
 
 .intro-top {
     justify-content: space-between;
+    margin-top: 5%;
 }
 
 .intro-bottom {
@@ -211,6 +221,7 @@ nav ul li:hover ul {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    text-transform: capitalize;
 }
 
 /* services */
