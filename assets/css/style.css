@@ -804,6 +804,10 @@ textarea {
         margin: 15% 2.5%;
     }
 
+    .top-margin {
+        margin: 15% 2.5% 5% 2.5%;
+    }
+
     /* navigation */
     .navigation {
         display: none;
@@ -988,12 +992,20 @@ textarea {
         margin: 15% 5%;
     }
 
+    .top-margin {
+        margin: 25% 2.5% 5% 2.5%;
+    }
+
     .gen-margin-mobile {
         margin: 25% 5% 10% 5%;
     }
 
     .gen-p {
         padding: 4% 0;
+    }
+
+    .title {
+        font-size: 1.85em;
     }
 
     /* header */
