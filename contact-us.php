@@ -2,6 +2,7 @@
 <html lang="en">
 <?php 
 if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
+  echo'console.log("posted");';
   $name = $_SERVER['name'];
   $email = $_SERVER['email'];
   $subject = $_SERVER['subject'];
@@ -15,14 +16,14 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
     // send email
     if(mail("canaanjack@hotmail.co.uk",$subject,$msg)){
-      
+      echo'console.log("email sent");';
     }
     else{
-      echo '<script type="text/javascript">',
-      'hidecontactform();',
-      '</script>';
+      echo'console.log("email not sent");';
     }
 
+}else{
+  echo'console.log("not posted");';
 }
 
 
@@ -106,7 +107,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
         <div id="form-submitted"  style="display:none;">
           <h1 class="section-header">Form Submitted (123)</h1>
         </div>
-          <form id="contact-form" class="form-horizontal" action="" role="form" method="post">
+          <form id="contact-form" class="form-horizontal" onsubmit="hidecontactform()" action="" role="form" method="post">
             
             <div class="form-group">
               <div class="col-sm-12">
