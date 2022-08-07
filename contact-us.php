@@ -15,8 +15,8 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
     //$msg = wordwrap($msg,70);
 
     // send email
-    if(mail("canaanjack@hotmail.co.uk",$subject,$msg)){
-      echo'<script>console.log("email sent");</script>';
+    if(mail("enquiries@avandor.co.uk",$subject,$msg)){
+      echo'<script>hidecontactform();</script>';
     }
     else{
       echo'<script>console.log("email not sent");</script>';
