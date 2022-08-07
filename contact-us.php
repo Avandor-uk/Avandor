@@ -14,7 +14,14 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
     //$msg = wordwrap($msg,70);
 
     // send email
-    mail("canaanjack@hotmail.co.uk",$subject,$msg);
+    if(mail("canaanjack@hotmail.co.uk",$subject,$msg)){
+      echo '<script type="text/javascript">',
+     'hidecontactform();',
+     '</script>';
+    }
+    else{
+
+    }
 
 }
 
@@ -99,7 +106,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
         <div id="form-submitted"  style="display:none;">
           <h1 class="section-header">Form Submitted (123)</h1>
         </div>
-          <form id="contact-form" class="form-horizontal" action="" role="form" onsubmit="hidecontactform()" method="post">
+          <form id="contact-form" class="form-horizontal" action="" role="form" method="post">
             
             <div class="form-group">
               <div class="col-sm-12">
