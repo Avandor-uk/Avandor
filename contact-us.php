@@ -15,12 +15,12 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
     // send email
     if(mail("canaanjack@hotmail.co.uk",$subject,$msg)){
-      echo '<script type="text/javascript">',
-     'hidecontactform();',
-     '</script>';
+      
     }
     else{
-
+      echo '<script type="text/javascript">',
+      'hidecontactform();',
+      '</script>';
     }
 
 }
