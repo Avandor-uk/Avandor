@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/ab972f586c.js" crossorigin="anonymous"></script>
+    <script 
+    src="https://kit.fontawesome.com/ab972f586c.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Contact Us</title>
@@ -75,9 +76,11 @@
         <div class="contact-wrapper">
         
         <!-- Left contact page --> 
-          
-          <form id="contact-form" class="form-horizontal" role="form">
-             
+        <div id="form-submitted"  style="display:none;">
+          <h1 class="section-header">Form Submitted (123)</h1>
+        </div>
+          <form id="contact-form" class="form-horizontal" action="" role="form" onsubmit="hidecontactform()" method="post">
+            
             <div class="form-group">
               <div class="col-sm-12">
                 <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
