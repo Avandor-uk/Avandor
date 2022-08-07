@@ -107,7 +107,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
         <div id="form-submitted"  style="display:none;">
           <h1 class="section-header">Form Submitted (123)</h1>
         </div>
-          <form id="contact-form" class="form-horizontal" onsubmit="hidecontactform()" action="?" role="form" method="post">
+          <form id="contact-form" class="form-horizontal" onsubmit="hidecontactform()" action="contact-us.php" role="form" method="post">
             
             <div class="form-group">
               <div class="col-sm-12">
