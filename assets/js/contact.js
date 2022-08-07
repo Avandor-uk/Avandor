@@ -1,7 +1,7 @@
 const contactForm = document.querySelector('#contact-form');
 
 
-contactForm.addEventListener('submit', (e) => {
+contactForm.addEventListener('submit1', (e) => {
     e.preventDefault();
     e.target.elements.name.value = '';
     e.target.elements.email.value = '';
