@@ -3,10 +3,10 @@
 <?php 
 if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
   echo'<script>console.log("posted");</script>';
-  $name = $_SERVER['name'];
-  $email = $_SERVER['email'];
-  $subject = $_SERVER['subject'];
-  $message = $_SERVER['message'];
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $subject = $_POST['subject'];
+  $message = $_POST['message'];
 
     // the message
     $msg = "Message From " . $name . "\n" ."Email address: " . $email . "\n" . $message;
