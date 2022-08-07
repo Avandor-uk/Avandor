@@ -14,7 +14,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
     //$msg = wordwrap($msg,70);
 
     // send email
-    mail("enquiries@avandor.co.uk",$subject,$msg);
+    mail("canaanjack@hotmail.co.uk",$subject,$msg);
 
 }
 
