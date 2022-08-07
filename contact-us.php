@@ -34,7 +34,7 @@
                         <li><a href="logo-design.html">LOGO DESIGN</a></li>
                     </ul>
                     </li>
-                    <li><a href="contact-us.html" class="navigation-a active">CONTACT US</a></li>
+                    <li><a href="contact-us.php" class="navigation-a active">CONTACT US</a></li>
                 </ul>
             </nav>
             
@@ -58,7 +58,7 @@
                     <li><a href="services.html" class="navigation-a">OUR SERVICES</a></li>
                 </ul>
                 <ul>
-                    <li><a href="contact-us.html" class="navigation-a active">CONTACT US</a></li>
+                    <li><a href="contact-us.php" class="navigation-a active">CONTACT US</a></li>
                 </ul>
             </div> 
         </div>
@@ -158,7 +158,7 @@
             <div class="footer-navigation"> 
                 <a href="index.html">HOME</a>
                 <a href="services.html">OUR SERVICES</a>
-                <a href="contact-us.html" class="active">CONTACT US</a>
+                <a href="contact-us.php" class="active">CONTACT US</a>
             </div>
         </div>
     </footer>
