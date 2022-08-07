@@ -1,5 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php 
+if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
+  $name = $_SERVER['name'];
+  $email = $_SERVER['email'];
+  $subject = $_SERVER['subject'];
+  $message = $_SERVER['message'];
+
+    // the message
+    $msg = "Message From " . $name . "\n" ."Email address: " . $email . "\n" . $message;
+
+    // use wordwrap() if lines are longer than 70 characters
+    //$msg = wordwrap($msg,70);
+
+    // send email
+    mail("enquiries@avandor.co.uk",$subject,$msg);
+
+}
+
+
+?>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -95,7 +115,7 @@
       
             <div class="form-group">
               <div class="col-sm-12">
-                <input type="text" class="form-control" id="subject" placeholder="SUBJECT" name="email" value="" required>
+                <input type="text" class="form-control" id="subject" placeholder="SUBJECT" name="subject" value="" required>
               </div>
             </div>
 
